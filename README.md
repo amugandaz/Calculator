@@ -1,7 +1,6 @@
 Nom : Aaron Muganda,
-Numéro d'étudiant : 300246117
 
-# Lab1Calculator
+Calculator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
 
