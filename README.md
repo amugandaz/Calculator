@@ -1,4 +1,4 @@
-Nom : Aaron Muganda,
+Nom : Aaron Muganda
 
 Calculator
 
