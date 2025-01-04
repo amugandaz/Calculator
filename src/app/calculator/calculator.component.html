@@ -1,0 +1,36 @@
+<p>calculator works!</p>
+<table>
+    <tr>
+      <td>
+        <label for="premierNombre">Premier nombre :</label>
+      </td>
+      <td>
+        <input name="premierNombre" id="premierNombre" value="{{firstNumberValue | number: '1.0-2'}}" #premierNombre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="deuxiemeNombre">Deuxième nombre :</label>
+      </td>
+      <td>
+        <input name="deuxiemeNombre" id="deuxiemeNombre" value="{{secondNumberValue | number: '1.0-2'}}" #deuxiemeNombre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="result">Résultat :</label>
+      </td>
+      <td>
+        <input name="result" id="result" value="{{resultValue | number: '1.0-2'}}" #resultat>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2" class="button-row">
+        <button (click)="additionOperation(premierNombre.value, deuxiemeNombre.value)">+</button>
+        <button (click)="soustractionOperation(premierNombre.value, deuxiemeNombre.value)">-</button>
+        <button (click)="multiplicationOperation(premierNombre.value, deuxiemeNombre.value)">*</button>
+        <button (click)="divisionOperation(premierNombre.value, deuxiemeNombre.value)">/</button>
+      </td>
+    </tr>
+</table>
